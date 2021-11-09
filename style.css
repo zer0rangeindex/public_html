@@ -1,215 +1,293 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-.navbar {
-    padding: 30px 40px;
-    height: auto;
-    min-height: 12vh;
-}
-
-.nav-link {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.navbar .container-fluid .navbar-brand {
-    font-weight: 500;
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.navbar .container-fluid .navbar-nav .nav-link {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.795);
-}
-
-.top {
-    background-image: url('https://ci.com/images/commentaries/bitcoin_masthead_bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.main-content {
-    margin: 60px 100px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.main-content h1 {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 50px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    padding-top: 70px;
-    font-weight: bolder;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.main-content p {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.container {
-    position: relative;
-    padding-top: 20px;
-    justify-content: center;
-    align-items: center;
-    max-width: 2000px;
-    flex-wrap: wrap;
-}
-
-.container .dis {
-    display: flex;
-}
-
-.what h1 {
-    padding-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.why h1 {
-    padding-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.why .row .col img {
-    margin: 5% 0 0 20%;
-}
-
-.how h1 {
-    padding-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.container hr {
-    width: 0%;
-    min-width: 35%;
-    margin: 0 auto;
-    border-bottom: 3px solid rgb(145, 17, 128);
-    position: relative;
-}
-
-.zr {
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.zr img {
-    position: relative;
-    width: 250px;
-    height: 200px;
-}
-
-.zr p {
-    text-align: center;
-    font-size: 20px;
-    padding: 50px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.container ul {
-    padding-top: 50px;
-}
-
-.container ul li {
-    margin: 10px 0px;
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.bton {
-    position: relative;
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
-    max-width: 2000px;
-    flex-wrap: wrap;
-}
-
-.how {
-    align-items: center;
-}
-
-iframe {
-    width: 800px;
-    height: 480px;
-    padding-top: 50px;
-}
-
-.bt-sec {
-    padding-top: 25px;
-}
-
-.bt {
-    border: 1px solid #9c2ea0;
-    padding: 10px;
-    background: white;
-    font-family: 'Ubuntu', sans-serif;
-    color: #9c2ea0;
-    border-radius: 20px;
-    font-size: 30px;
-    transition: 0.5s;
-}
-
-.bt:focus,
-.bt:hover {
-    background: #9c2ea0;
-    color: white;
-    transition: 0.5s;
-}
-
-.bt:active {
-    background: white;
-    color: #9c2ea0;
-}
-
-.team .title,
-.goal .title {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.team,
-.goal {
-    padding-top: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.team .row .col img,
-.goal .row .col img {
-    margin-left: 10%;
-}
-
-.goal .hr1,
-.team .hr1 {
-    width: 0%;
-    min-width: 10%;
-    margin: 0 auto;
-    border-bottom: 3px solid rgb(145, 17, 128);
-    position: relative;
-}
-
-footer .container .mb-4 {
-    margin-top: 0.5%;
-}
-
-footer .container .mb-4 a i {
-    font-size: large;
-}
-
-@media(max-width: 750px) {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+    .navbar {
+        padding: 30px 40px;
+        height: auto;
+        min-height: 12vh;
+    }
+    
+    .nav-link {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .navbar .container-fluid .navbar-brand {
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: -1%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .navbar .container-fluid img {
+        margin-left: -3%;
+    }
+    
+    .navbar .container-fluid .navbar-nav .nav-link {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.795);
+    }
+    
+    .top {
+        background-image: url('https://ci.com/images/commentaries/bitcoin_masthead_bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .main-content {
+        margin: 60px 100px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
     .main-content h1 {
-        font-size: 35px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 2px;
+        padding-top: 70px;
+        font-weight: bolder;
+        font-family: 'Ubuntu', sans-serif;
     }
-    .main-content p {
-        font-size: 15px;
+    
+    .container {
+        position: relative;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        max-width: 2000px;
+        flex-wrap: wrap;
     }
-    iframe {
-        width: 400px;
-        height: 280px;
+    
+    .container .dis {
+        display: flex;
+    }
+    
+    .what h1 {
+        padding-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .why h1 {
+        padding-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .why .row .col img {
+        margin: 5% 0 0 20%;
+    }
+    
+    .how h1 {
+        padding-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .container hr {
+        width: 0%;
+        min-width: 35%;
+        margin: 0 auto;
+        border-bottom: 3px solid rgb(145, 17, 128);
+        position: relative;
+    }
+    
+    .zr {
+        padding: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .zr img {
+        position: relative;
+        width: 250px;
+        height: 200px;
+    }
+    
+    .zr p {
+        text-align: center;
+        font-size: 20px;
+        padding: 50px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .container ul {
         padding-top: 50px;
     }
-    .why .row .col img {
+    
+    .container ul li {
+        margin: 10px 0px;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .bton {
+        position: relative;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+        max-width: 2000px;
+        flex-wrap: wrap;
+    }
+    
+    .how {
+        align-items: center;
+    }
+    
+    iframe {
+        width: 800px;
+        height: 480px;
+        padding-top: 50px;
+    }
+    
+    .bt-sec {
+        padding-top: 25px;
+    }
+    
+    .bt {
+        border: 1px solid #9c2ea0;
+        padding: 10px;
+        background: white;
+        font-family: 'Ubuntu', sans-serif;
+        color: #9c2ea0;
+        border-radius: 20px;
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    
+    .bt:focus,
+    .bt:hover {
+        background: #9c2ea0;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .bt:active {
+        background: white;
+        color: #9c2ea0;
+    }
+    
+    .team .title,
+    .goal .title {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .team,
+    .goal {
+        padding-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team .row .col img,
+    .goal .row .col img {
         margin-left: 10%;
     }
-}
+    
+    .goal .hr1,
+    .team .hr1 {
+        width: 0%;
+        min-width: 10%;
+        margin: 0 auto;
+        border-bottom: 3px solid rgb(145, 17, 128);
+        position: relative;
+    }
+    
+    footer .container .mb-4 {
+        margin-top: 0.5%;
+    }
+    
+    footer .container .mb-4 a i {
+        font-size: large;
+    }
+    
+    @media(max-width: 800px) {
+        .navbar .container-fluid .navbar-brand {
+            font-size: 20px;
+            margin-left: 0%;
+        }
+        .navbar .container-fluid .navbar-nav .nav-link {
+            font-size: 13px;
+        }
+        .main-content {
+            margin: 10%;
+        }
+        .main-content h1 {
+            font-size: 20px;
+        }
+        .what h1,
+        .how h1,
+        .why h1,
+        .about .team h1,
+        .about .goal h1 {
+            font-size: 25px;
+        }
+        iframe {
+            width: 300px;
+            height: 200px;
+            padding-top: 50px;
+            margin-left: 0px;
+        }
+        .why .row .col img {
+            margin-left: 3%;
+            width: 270px;
+        }
+        .about .team .row .col img,
+        .about .goal .row .col img {
+            margin-left: 5%;
+            width: 270px;
+        }
+        .bt {
+            font-size: 20px;
+        }
+        .zr p,
+        .container ul li {
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width: 440px) {
+        .navbar .container-fluid .navbar-brand {
+            font-size: 15px;
+            margin-left: -18%;
+        }
+        .navbar .container-fluid img {
+            width: 80px;
+            margin-left: -15%;
+        }
+        .why .row .col img,
+        .about .team .row .col img,
+        .about .goal .row .col img {
+            margin-left: 15%;
+            width: 300px;
+        }
+    }
+    
+    @media(max-width: 420px) {
+        .navbar .container-fluid .navbar-brand {
+            font-size: 15px;
+            margin-left: -18%;
+        }
+        .navbar .container-fluid img {
+            width: 80px;
+            margin-left: -15%;
+        }
+        .why .row .col img,
+        .about .team .row .col img,
+        .about .goal .row .col img {
+            margin-left: 10%;
+            width: 250px;
+        }
+    }
+    
+    @media(max-width: 320px) {
+        .navbar .container-fluid .navbar-brand {
+            font-size: 15px;
+            margin-left: -10%;
+        }
+        .navbar .container-fluid img {
+            width: 80px;
+            margin-left: -25%;
+        }
+        .why .row .col img,
+        .about .team .row .col img,
+        .about .goal .row .col img {
+            margin-left: 10%;
+            width: 250px;
+        }
+    }
