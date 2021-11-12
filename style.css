@@ -71,7 +71,7 @@
     }
     
     .why .row .col img {
-        margin: 5% 0 0 20%;
+        margin: 5% 0 0 15%;
     }
     
     .how h1 {
@@ -85,10 +85,10 @@
         margin: 0 auto;
         border-bottom: 3px solid rgb(145, 17, 128);
         position: relative;
+        margin-bottom: 7%;
     }
     
     .zr {
-        padding: 100px;
         justify-content: center;
         align-items: center;
     }
@@ -132,7 +132,6 @@
     iframe {
         width: 800px;
         height: 480px;
-        padding-top: 50px;
     }
     
     .bt-sec {
@@ -176,7 +175,7 @@
     
     .team .row .col img,
     .goal .row .col img {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     
     .goal .hr1,
